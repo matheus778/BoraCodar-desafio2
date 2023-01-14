@@ -1,0 +1,71 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.sofa-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sofa-container img:first-child {
+ 
+  align-self: flex-end;
+  transform: translateX(-4rem);
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.sofa-container img:first-child:hover {
+  opacity: 0.6;
+}
+
+.sofa-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sofa-info-container span:first-child {
+  color: #271A45;
+  font-size: 1rem;
+  font-family: 'Lato';
+  font-weight: lighter;
+}
+
+.sofa-info-container h1 {
+  color: #271A45;
+  font-size: 3.2rem;
+  font-family: 'Crimson Pro';
+  font-weight: 600;
+}
+
+.sofa-info-container span:nth-child(3){
+  color: #271A45;
+  font-size: 1.6rem;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.sofa-info-container a {
+  padding: 1rem;
+  font-family: 'Lato';
+  color: #271A45;
+  font-size: 1.2rem;
+  height: 32px;
+  width: 148px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #271A45;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.sofa-info-container a:hover {
+  background: #271A45;
+  color: white;
+}
