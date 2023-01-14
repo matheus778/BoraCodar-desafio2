@@ -18,6 +18,11 @@ main {
   cursor: pointer;
 }
 
+#sofaImage {
+  width: 449px;
+  height: 222px;
+}
+
 .sofa-container img:first-child:hover {
   opacity: 0.6;
 }
