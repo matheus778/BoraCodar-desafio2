@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap');
+
+/* 
+font-family: 'Crimson Pro', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+}
